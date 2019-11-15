@@ -1,0 +1,62 @@
+
+:root {
+  --black: #04070A;
+  --light-grey: #D5DCE1;
+  --blue: #3D98A2;
+  --teal: #054443;
+  --midnight: #063236;
+}
+
+
+.wrapper {
+  background: url('images/iceberg-2.jpg');
+  background-size: cover;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.hold-counter {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 160px;
+  padding: 40px;
+  text-align: center;
+  background: rgba(6, 50, 54, 0.90);
+  border-radius: 10px;
+  color: var(--light-grey);
+}
+
+button {
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  background: var(--blue);
+  color: var(--light-grey);
+  font-weight: bold;
+}
+button:hover {
+  background: var(--light-grey);
+  color: var(--blue);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 60px;
+  text-shadow: 2px 2px var(--blue);
+  margin: 25px;
+}
+
+footer {
+  background: var(--black);
+  min-height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-grey);
+}
