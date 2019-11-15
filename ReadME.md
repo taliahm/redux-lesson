@@ -17,7 +17,8 @@ Redux also gives you a very opionated framework in which to manage your global s
 
 ## The Concepts of Redux
 
-[Diagram]: https://github.com/taliahm/redux-lesson/reference/redux_diagram.png "Diagram of Redux Concepts"
+![alt text][diagram]
+[diagram]: https://github.com/taliahm/redux-lesson/reference/redux_diagram.png "Diagram of Redux Concepts"
 
 There are a lot of terms to learn when first presented with Redux, but it is just a pattern that can be learned through repeated use.
 
