@@ -60,11 +60,15 @@ Redux Installation
 4. Start wrapping components in the connect function and use mapStateToProps and mapDispatchToProps to allow your component to interact with state.
 
 ## Test Your Knowledge
-What would you update to change how the state gets updated?
->! Reducers
-
-How do you ensure that reducers and actions can communicate?
->! Types
-
-How does a component update state?
->! Dispatchnig actions
+<details> 
+  <summary>What would you update to change how the state gets updated?</summary>
+   Reducers
+</details>
+<details> 
+  <summary>How do you ensure that reducers and actions can communicate?</summary>
+   Types
+</details>
+<details> 
+  <summary>How does a component update state?</summary>
+   Dispatching actions
+</details>
