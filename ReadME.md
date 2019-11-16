@@ -58,3 +58,13 @@ Redux Installation
 2. Setup your Provider component which should wrap the highest level of your application. This is what provides gives components access to the store (or global state) through the connect function.
 3. Setup a folder (in this case we've called it connect) with all of the redux files: actions, reducers, types (you can come up with your own names for these but this is what is conventionally used)
 4. Start wrapping components in the connect function and use mapStateToProps and mapDispatchToProps to allow your component to interact with state.
+
+## Test Your Knowledge
+What would you update to change how the state gets updated?
+>! Reducers
+
+How do you ensure that reducers and actions can communicate?
+>! Types
+
+How does a component update state?
+>! Dispatchnig actions
