@@ -79,5 +79,5 @@ Redux Installation
 - https://redux.js.org/
 - https://www.rallycoding.com/courses/es6-javascript-the-complete-developers-guide/
 - https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/
-Redux has recently implemented hooks, to follow the new direction of React, documentation here:
+- Redux has recently implemented hooks, to follow the new direction of React, documentation here:
 https://react-redux.js.org/next/api/hooks
