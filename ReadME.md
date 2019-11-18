@@ -53,7 +53,7 @@ Does exactly what is says, creates a store that will hold the entire state tree 
 ## Cool, let's code.
 
 This repo already has all the dependencies you need to run a React app with Redux, however, if you wanted to install this yourself, here are the steps to follow:
-Redux Installation
+#### Redux Installation
 1. `Yarn add react-redux redux`
 2. Setup your `Provider` component which should wrap the highest level of your application. This is what provides gives components access to the store (or global state) through the connect function. Nothing will work if it is not in place.
 3. Setup a folder (in this case we've called it connect) with all of the Redux files: actions, reducers, types (you can come up with your own names for these but this is what is conventionally used)
