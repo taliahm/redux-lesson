@@ -41,11 +41,10 @@ Sends an action to the store via the reducers. This is part of the Redux library
 ### Connect
 The connect function will be used to wrap any component that you want to know about Redux state. It accepts two arguments, the first is conventionally called `mapStateToProps` and the second is called `mapDispatchToProps`. Connect is part of the react-redux library. 
 `MapStateToProps` will subscribe to updates in the store (global state) and provide new props to the wrapped component every time pieces of state are updated.
-`MapDispatchToProps` gives you access to the dispatch function, so this is where you will put actions that will be called from a component. We will not be using this function in the code along today but you will see if used frequently.
+`MapDispatchToProps` gives you access to the dispatch function, so this is where you will put actions that will be called from a component. We will not be using this function in the code along today but you will see it used frequently.
 
 ### Provider
 A component that allows any nested components to interact with the Redux store via the connect function. This will typically be wrapped around your very top level component in an application. This is part of the react-redux library. 
-
 
 ### createStore
 Does exactly what is says, creates a store that will hold the entire state tree of your application. The store can only be interacted with via actions. Reducers define how the store behaves when it recieves those actions. State tree is just a fancy word for an object that holds information about what's going on (or the state!) in your application. This is part of the Redux library.
